@@ -13,11 +13,15 @@ The goal of this project is to give tools to developers to control the density o
 
 ## How
 
+We will use Git as a backbone to manage the story of the data for a given long-term task.
+
 Git is a powerful lifeline memory for codebase, i.e. memory of instructions for a program.
 
-We will use it as a backbone to manage the story of the data for a given task.
-
 Git is developer-friendly for auditability of the actions performed by the system itself.
+
+Git allows multiple contributors, like agents, to interact with the same data, and discuss how and why they want to apply changes.
+
+Git allows multiple instances of a same data to live their lives appart and also get synced while living separately.
 
 ## What we want memgit to do
 
