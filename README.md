@@ -1,6 +1,6 @@
 # memgit
 Git-based Working Memory Management for LLM Apps
-
+The MemGit project aims to utilize Git for managing the short-term and working memory of LLM (Large Language Model) calls. The goal is to develop a memory management module that handles the information to be pushed into the working context windows of each LLM call.
 
 ## Why
 Optimizing LLMs responses to a given task depends on how they are queried; i.e. what's the input of the call.
@@ -22,6 +22,32 @@ Git is developer-friendly for auditability of the actions performed by the syste
 Git allows multiple contributors, like agents, to interact with the same data, and discuss how and why they want to apply changes.
 
 Git allows multiple instances of a same data to live their lives appart and also get synced while living separately.
+
+## Memory Management Module
+
+The memory management module will be responsible for:
+
+- Managing the information flow into the working context of LLM calls.
+- Ensuring that relevant data is available for each LLM call to enhance performance and accuracy.
+
+## Git as the Backbone
+
+Git will be used as the backbone for data storage and version control. The reasons for choosing Git include:
+- Robust version control capabilities.
+- Efficient handling of differences in data versions.
+- Widely adopted and well-understood by developers.
+
+## Episodes in Markdown for Data Format
+
+Episodes and Git Tree Structure
+
+The content stored in Markdown will be referred to as "episodes". These episodes will be organized within a Git tree structure, allowing for efficient storage and retrieval.
+
+Markdown will be used as the data format due to its:
+
+- Lightweight structure.
+- Ease of understanding by LLMs.
+- Simplicity in managing version differences in Git.
 
 ## What we want memgit to do
 
